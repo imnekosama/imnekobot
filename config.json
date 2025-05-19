@@ -1,0 +1,24 @@
+{
+  "token": "你的机器人 token ，在@BotFather申请的你的机器人Token",
+  "admin_id": "你的数字ID，可以私聊这个机器人 @userinfobot，然后它会告诉你你的 Telegram 数字 ID",
+  "auto_reply": "🎉投递成功，感谢投稿！管理员会尽快进行审核。\n⚠️<b>请勿重复投稿，如有问题请</b><a href=\"https://t.me/imnekosama\"><b>联系管理员</b></a>⚠️",
+  "welcome_message": "🎉欢迎使用😺投稿猫😺！向机器人发送<b>文字</b>、<b>图片</b>、或<b>视频</b>进行投稿 。\n如果图片、视频较多，请以10张以内一个媒体组并附加文字的形式发送。\n⚠️<b>请勿重复投稿，如有问题请</b><a href=\"https://t.me/imnekosama\"><b>联系管理员</b></a>⚠️",
+  "welcome_buttons": [
+    {
+      "text": "一只夜猫子",
+      "url": "https://imneko.com"
+    },
+    {
+      "text": "联系管理员",
+      "url": "https://t.me/imnekosama"
+    }
+  ],
+  "post_limit": {
+    "enabled": false,
+    "count": 30
+  },
+  "button_layout": {
+    "row": 1,
+    "col": 2
+  }
+}
