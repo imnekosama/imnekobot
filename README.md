@@ -37,22 +37,27 @@
 ### 1. 安装 Python 与虚拟环境工具
 ```bash
 sudo apt update
-sudo apt install python3 python3-venv git -y
+sudo apt install -y python3 python3-venv python3-pip git unzip curl
 ```
-### 2. 下载项目并进入目录
+
+### 2. 准备机器人目录并上传文件
 ```bash
-git clone https://github.com/imnekosama/imnekobot.git
-cd imneko_bot
+mkdir -p /root/telegram_bot/imneko_bot
+cd /root/telegram_bot/imneko_bot
 ```
+✅ 请将路径替换为你实际的安装目录与用户名。
+
 ### 3. 创建虚拟环境并激活
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
+
 ### 4. 安装依赖库
 ```bash
 pip install -r requirements.txt
 ```
+
 ### 5. 配置机器人信息（编辑 config.json）
 ```json
 {
@@ -60,6 +65,7 @@ pip install -r requirements.txt
   "admin_id": "你的 Telegram 数字 ID（通过 @userinfobot 获取）"
 }
 ```
+
 ### 6. 启动机器人（测试阶段使用）
 ```bash
 python3 imneko_bot.py
