@@ -21,6 +21,7 @@
 ## 📁 文件结构
 
 ```yaml
+/root/telegram_bot/imneko_bot/
 ├── imneko_bot.py # 主程序文件（投稿逻辑、指令监听等）
 ├── safe_send.py # 安全发送封装函数，避免网络延迟导致程序崩溃并通知管理员
 ├── config.json # 配置文件（包含 token、管理员 ID、欢迎语、按钮设置等）
